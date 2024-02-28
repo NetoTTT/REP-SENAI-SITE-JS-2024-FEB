@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/painel.css">
+    <title>SIS Tech - Cadastro de Clientes</title>
+</head>
+<body>
+    <h1>SIS Tech - Sistema de Cadastro de Clientes</h1>
+        <form action="painel.html" name="formlogin">
+            <div>
+                <label for="">Nome</label><br>
+                <input type="text" name="" placeholder="Nome" class="campo2" id="nome">
+            </div>
+            <div>
+                <label for="">Tel</label><br>
+                <input type="number" name="" placeholder="Tel" class="campo2" id="tel">
+            </div>
+            <div>
+                <label for="">Email</label><br>
+                <input type="email" name="" placeholder="Email" class="campo2" id="email">
+            </div>
+            <div>
+                <label for="">Password</label><br>
+                <input type="password" name="" placeholder="Senha" class="campo2" id="senha" required>
+            </div>
+            <div>
+                <button type="submit" class="botao1" onclick="validapainel()">
+                    ENVIAR
+                </button>
+            </div>
+        </form>
+        <script src="./js/validapainel.js"></script>
+</body>
+</html>
