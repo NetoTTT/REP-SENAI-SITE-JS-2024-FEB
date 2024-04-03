@@ -1,0 +1,9 @@
+.slideshow-container{
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+.slides img{
+    width: 100%;
+    display: none;
+}
